@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com Clone</title>
+    
+    <link rel="icon" type="image/x-icon" href="/images/Amazon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="nav-belt">
+            <div class="nav-left flex">
+                <div class="nav-logo flex">
+                    <a href="#">
+                        <img src="images/logo.png" alt="logo">
+                        <span class="in">.in</span>
+                    </a>
+                </div>
+                <div class="nav-location flex">
+                    <i class="fa fa-map-marker"></i>
+                    <div>
+                        <span class="top">Delivering to Kochi 682506</span>
+                        <span class="down">Update location</span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-fill">
+                <div class="nav-search flex">
+                    <div class="left">
+                        <span style="color: #232f3ebf; font-size: 12px;">All</span>
+                        <i class="fa fa-caret-down" style="color: #232f3ebf;"></i>
+                    </div>
+                    <div class="fill">
+                        <input type="text" placeholder="Search Amazon.in" style="">
+                    </div>
+                    <div class="right">
+                        <i class="fa fa-search" style="color: #232f3ebf; font-weight: 600;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-right flex">
+                <div class="lang">
+                    <img src="images/india.png" alt="india">
+                    <span>EN</span>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="sign">
+                    <div>
+                        <span class="top">Hello,sign in</span>
+                        <span class="down">Account & Lists</span>
+                    </div>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="order">
+                    <span class="top">Returns</span>
+                    <span class="down">& Orders</span>
+                </div>
+                <div class="cart">
+                    <p>0</p>
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="ct down">Cart</span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="nav-main">
+            <div class="nav-left">
+                <div class="All">
+                    <i class="fa-solid fa-bars"></i>
+                    <span style="font-weight: bold;">All</span>
+                </div>
+            </div>
+            <div class="nav-fill">
+                <ul>
+                    <li class="caret">
+                        <ul>Fresh</ul>
+                        <ul><i class="fa fa-caret-down"></i></ul>
+                    </li>
+                    <li>Amazon miniTV</li>
+                    <li>Sell</li>
+                    <li>Best Sellers</li>
+                    <li>Today's Deals</li>
+                    <li>Mobiles</li>
+                    <li class="caret">
+                        <ul>Prime</ul>
+                        <ul><i class="fa fa-caret-down"></i></ul>
+                    </li>
+                    <li>Customer Service</li>
+                    <li>Electronics</li>
+                    <li>Fashion</li>
+                    <li>New Releases</li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <img src="images/nav-main-right.png" alt="ad">
+            </div>
+        </div>
+    </header>
+    <section class="sec-1">
+        <div class="container">
+            <div class="container-1">
+                <div class="product-comp">
+                    <div class="box">
+                        <h2>Revamp your home in style</h2>
+                        <div class="layout-type1">
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_furnishings_2._SY116_CB555624324_.jpg" alt="">
+                                <span>Cushion covers, bedsheets & more</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_decor_1._SY116_CB555624324_.jpg" alt="">
+                                <span>Figurines, vases & more</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_storage_1._SY116_CB555624324_.jpg" alt="">
+                                <span>Home storage</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_lighting_2._SY116_CB555624324_.jpg" alt="">
+                                <span>Lighting solution</span>
+                            </div>
+                        </div>
+                        <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">Explore all</span>
+                    </div>
+                    <div class="box">
+                        <h2>Starting ₹149 | Headphones</h2>
+                        <div class="layout-type1">
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg" alt="">
+                                <span>Starting ₹249 | boAt</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_decor_1._SY116_CB555624324_.jpg" alt="">
+                                <span>Starting ₹349 | boult</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg" alt="">
+                                <span>Starting ₹649 | Noise</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg" alt="">
+                                <span>Starting ₹149 | Zebronics</span>
+                            </div>
+                        </div>
+                        <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">See all offers</span>
+                    </div>
+                    <div class="box">
+                        <h2>Appliances for your home | Up to 55% off</h2>
+                        <div class="layout-type2" >
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg" alt="">
+                                <span>Cushion covers, bedsheets & more</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg" alt="">
+                                <span>Figurines, vases & more</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg" alt="">
+                                <span>Home storage</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg" alt="">
+                                <span>Lighting solution</span>
+                            </div>
+                        </div>
+                        <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">See more</span>
+                    </div>          
+                    <div class="box">
+                        <h2>Automotive essentials | Up to 60% off</h2>
+                        <div class="layout-type2" >
+                            <div class="box-a">
+                                <img src="images/first-block/item-13.jpg" alt="">
+                                <span>Cleaning accessories</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="images/first-block/item-14.jpg" alt="">
+                                <span>Tyre & rim care</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="images/first-block/item-15.jpg" alt="">
+                                <span>Helmets</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="images/first-block/item-16.jpg" alt="">
+                                <span>vacuum cleaner</span>
+                            </div>
+                        </div>
+                        <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">See more</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="image-box">
+                    <div class="slide">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL/GW/BAU/May/Budget/PC_Hero_3000x1200_BS_PC._CB558386585_.jpg" alt="pic">
+                    </div>
+                    <div class="slide">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24hp/urec/hero/Under1499_Tallhero_3000x1200._CB568928188_.jpg" alt="pic">
+                    </div>
+                    <div class="slide">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/D103625178_DesktopTallHero_3000x1200_V3._CB558389732_.jpg" alt="pic">
+                    </div>
+                    <div class="slide">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Consumables/X-GL/Feb5/PC_Hero_1_3000._CB582457311_.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/JULY/GW/u499_3000._CB567285685_.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-2">
+        <div class="slide-sec">
+            <div class="btn">
+                <div class="l-btn"><div class="fa-solid fa-chevron-left"></div></div>
+                <div class="r-btn"><div class="fa-solid fa-chevron-right"></div></div>
+            </div>
+            <span class="title"><h2>Best Sellers in Home & Kitchen</h2></span>
+            <ul class="product-slide">
+                <li><img src="images/second-block/item-1.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-2.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-3.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-4.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-5.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-6.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-7.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-8.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-9.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-10.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-11.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-12.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-13.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-14.jpg" alt="pic"></li>
+                <li><img src="images/second-block/item-15.jpg" alt="pic"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec-3">
+        <div class="slide-sec">
+            <div class="btn">
+                <div class="l-btn"><div class="fa-solid fa-chevron-left"></div></div>
+                <div class="r-btn"><div class="fa-solid fa-chevron-right"></div></div>
+            </div>
+            <span class="title"><h2>Upto 60% off | Car & bike accessories & more</h2><a href="#">See all offers</a></span>
+            <ul class="product-slide">
+                <li><img src="images/third-block/item-1.jpg" alt="pic"></li>
+                <li><img src="images/third-block/item-2.jpg" alt="pic"></li>
+                <li><img src="images/third-block/item-3.jpg" alt="pic"></li>
+                <li><img src="images/third-block/item-4.jpg" alt="pic"></li>
+                <li><img src="images/third-block/item-5.jpg" alt="pic"></li>
+                <li><img src="images/third-block/item-6.jpg" alt="pic"></li>
+                <li><img src="images/third-block/item-7.jpg" alt="pic"></li>
+                <li><img src="images/third-block/item-8.jpg" alt="pic"></li>
+                <li><img src="images/third-block/item-9.jpg" alt="pic"></li>
+                <li><img src="images/third-block/item-10.jpg" alt="pic"></li>
+                <li><img src="images/third-block/item-11.jpg" alt="pic"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec-4">
+            <div class="container-sec-4">
+                <div class="product-comp">
+                    <div class="box">
+                        <h2>Customers' Most-Loved</h2>
+                        <h2 class="btm">Fashion for you</h2>
+                        <div class="layout-type2" >
+                            <div class="box-small">
+                                <img src="images/fourth-block/item-1.jpg" alt="">
+                            </div>
+                            <div class="box-small">
+                                <img src="images/fourth-block/item-2.jpg" alt="">
+                            </div>
+                            <div class="box-small">
+                                <img src="images/fourth-block/item-3.jpg" alt="">
+                            </div>
+                            <div class="box-small">
+                                <img src="images/fourth-block/item-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">See more</span>
+                    </div>
+                    <div class="box">
+                        <h2>Best seller's in Womens India</h2>
+                        <h2 class="btm">Clothing</h2>
+                        <div class="layout-type3" >
+                            <div class="box-small">
+                                <img src="images/fourth-block/item-5.jpg" alt="">
+                            </div>
+                            <div class="box-small">
+                                <img src="images/fourth-block/item-6.jpg" alt="">
+                            </div>
+                            <div class="box-small">
+                                <img src="images/fourth-block/item-7.jpg" alt="">
+                            </div>
+                            <div class="box-small">
+                                <img src="images/fourth-block/item-8.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h2>Under ₹449 | Pocket-friendly fashion</h2>
+                        <div class="layout-type2" >
+                            <div class="box-a">
+                                <img src="images/fourth-block/item-9.jpg" alt="">
+                                <span>Cushion covers, bedsheets & more</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="images/fourth-block/item-10.jpg" alt="">
+                                <span>Figurines, vases & more</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="images/fourth-block/item-11.jpg" alt="">
+                                <span>Home storage</span>
+                            </div>
+                            <div class="box-a">
+                                <img src="images/fourth-block/item-12.jpg" alt="">
+                                <span>Lighting solution</span>
+                            </div>
+                        </div>
+                        <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">See more</span>
+                    </div>          
+                    <div class="box">
+                        <h2>Up to 60% off | Car, bikes parts & accessories</h2>
+                        <div class="layout-type2" >
+                            <div class="box-full">
+                                <img src="images/fourth-block/item-13.jpg" alt="">
+                            </div>
+                        </div>
+                        <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">See more</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="sec-5">
+        <div class="slide-sec">
+            <div class="btn">
+                <div class="l-btn"><div class="fa-solid fa-chevron-left"></div></div>
+                <div class="r-btn"><div class="fa-solid fa-chevron-right"></div></div>
+            </div>
+            <span class="title"><h2>Best Sellers in Toys & Games</h2></span>
+            <ul class="product-slide">
+                <li><img src="images/fifth-block/item-1.jpg" alt="pic"></li>
+                <li><img src="images/fifth-block/item-2.jpg" alt="pic"></li>
+                <li><img src="images/fifth-block/item-3.jpg" alt="pic"></li>
+                <li><img src="images/fifth-block/item-4.jpg" alt="pic"></li>
+                <li><img src="images/fifth-block/item-5.jpg" alt="pic"></li>
+                <li><img src="images/fifth-block/item-6.jpg" alt="pic"></li>
+                <li><img src="images/fifth-block/item-7.jpg" alt="pic"></li>
+                <li><img src="images/fifth-block/item-8.jpg" alt="pic"></li>
+                <li><img src="images/fifth-block/item-9.jpg" alt="pic"></li>
+                <li><img src="images/fifth-block/item-10.jpg" alt="pic"></li>
+                <li><img src="images/fifth-block/item-11.jpg" alt="pic"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec-6">
+        <div class="slide-sec">
+            <div class="btn">
+                <div class="l-btn"><div class="fa-solid fa-chevron-left"></div></div>
+                <div class="r-btn"><div class="fa-solid fa-chevron-right"></div></div>
+            </div>
+            <span class="title"><h2>Best Sellers in Beauty</h2></span>
+            <ul class="product-slide">
+                <li><img src="images/sixth-block/item-1.jpg" alt="pic"></li>
+                <li><img src="images/sixth-block/item-2.jpg" alt="pic"></li>
+                <li><img src="images/sixth-block/item-3.jpg" alt="pic"></li>
+                <li><img src="images/sixth-block/item-4.jpg" alt="pic"></li>
+                <li><img src="images/sixth-block/item-5.jpg" alt="pic"></li>
+                <li><img src="images/sixth-block/item-6.jpg" alt="pic"></li>
+                <li><img src="images/sixth-block/item-7.jpg" alt="pic"></li>
+                <li><img src="images/sixth-block/item-8.jpg" alt="pic"></li>
+                <li><img src="images/sixth-block/item-9.jpg" alt="pic"></li>
+                <li><img src="images/sixth-block/item-10.jpg" alt="pic"></li>
+                <li><img src="images/sixth-block/item-11.jpg" alt="pic"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec-7">
+        <div class="container-sec-7">
+            <div class="product-comp">
+                <div class="box">
+                    <h2>Starting ₹99 | Start your </h2>
+                    <h2 class="btm">fitness journey</h2>
+                    <div class="layout-type2" >
+                        <div class="box-full">
+                            <img src="images/seventh-block/item-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">See more</span>
+                </div>
+                <div class="box">
+                    <h2>One stop shop for all your </h2>
+                    <h2 class="btm">wedding shopping</h2>
+                    <div class="layout-type2" >
+                        <div class="box-a">
+                            <img src="images/seventh-block/item-2.jpg" alt="">
+                            <span>Shop for her</span>
+                        </div>
+                        <div class="box-a">
+                            <img src="images/seventh-block/item-3.jpg" alt="">
+                            <span>Shop for him</span>
+                        </div>
+                        <div class="box-a">
+                            <img src="images/seventh-block/item-4.jpg" alt="">
+                            <span>Pooja essentials</span>
+                        </div>
+                        <div class="box-a">
+                            <img src="images/seventh-block/item-5.jpg" alt="">
+                            <span>Explore the store</span>
+                        </div>
+                    </div>
+                    <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">See more</span>
+                </div>          
+                <div class="box">
+                    <h2>Zakir Khan's Chacha Vidhayak Hain Humare | Watch Now</h2>
+                    <div class="layout-type2" >
+                        <div class="box-full">
+                            <img src="images/seventh-block/item-6.jpg" alt="">
+                        </div>
+                    </div>
+                    <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">Check out other excitiing shows on miniTV</span>
+                </div>
+                <div class="box">
+                    <h2>Essentials for Expecting </h2>
+                    <h2 class="btm">Mothers</h2>
+                    <div class="layout-type2" >
+                        <div class="box-a">
+                            <img src="images/seventh-block/item-7.jpg" alt="">
+                            <span>Pregnancy supplements</span>
+                        </div>
+                        <div class="box-a">
+                            <img src="images/seventh-block/item-8.jpg" alt="">
+                            <span>Maternity Sleep & Loungwear</span>
+                        </div>
+                        <div class="box-a">
+                            <img src="images/seventh-block/item-9.jpg" alt="">
+                            <span>Maternity pillows</span>
+                        </div>
+                        <div class="box-a">
+                            <img src="images/seventh-block/item-10.jpg" alt="">
+                            <span>Maternity Skin care</span>
+                        </div>
+                    </div>
+                    <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">See more</span>
+                </div>          
+            </div>
+        </div>
+    </section>
+    <section class="sec-8">
+        <div class="slide-sec">
+            <div class="btn">
+                <div class="l-btn"><div class="fa-solid fa-chevron-left"></div></div>
+                <div class="r-btn"><div class="fa-solid fa-chevron-right"></div></div>
+            </div>
+            <span class="title"><h2>Best Sellers in Grocery & Gourmet Foods</h2></span>
+            <ul class="product-slide">
+                <li><img src="images/eigth-block/item-1.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-2.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-3.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-4.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-5.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-6.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-7.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-8.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-9.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-10.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-11.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-12.jpg" alt="pic"></li>
+                <li><img src="images/eigth-block/item-13.jpg" alt="pic"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec-9">
+        <div class="container-sec-4">
+            <div class="product-comp">
+                <div class="box">
+                    <h2>Customers' Most-Loved</h2>
+                    <h2 class="btm">Products</h2>
+                    <div class="layout-type2" >
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-1.jpg" alt="">
+                        </div>
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-2.jpg" alt="">
+                        </div>
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-3.jpg" alt="">
+                        </div>
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-4.jpg" alt="">
+                        </div>
+                    </div>
+                    <span style="font-size: 13px; color: #007185; margin-left: 18px; font-weight: 500; font-family: Arial,sans-serif;">See more</span>
+                </div>
+                <div class="box">
+                    <h2>Best seller's in Cloting & </h2>
+                    <h2 class="btm">Accessories</h2>
+                    <div class="layout-type3" >
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-5.jpg" alt="">
+                        </div>
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-6.jpg" alt="">
+                        </div>
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-7.jpg" alt="">
+                        </div>
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-8.jpg" alt="">
+                        </div>
+                    </div>
+                </div>          
+                <div class="box">
+                    <h2>Best seller's in Computers & </h2>
+                    <h2 class="btm">Accessories</h2>
+                    <div class="layout-type3" >
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-9.jpg" alt="">
+                        </div>
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-10.jpg" alt="">
+                        </div>
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-11.jpg" alt="">
+                        </div>
+                        <div class="box-small">
+                            <img src="images/nineth-block/item-12.jpg" alt="">
+                        </div>
+                    </div>
+                </div>          
+                <div class="box-sp">
+                    <h2>Best seller's in Books </h2>
+                    <div class="layout-type2" >
+                        <div class="box-half">
+                            <img src="images/nineth-block/item-13.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="inner">
+                        <span>MINtile Sank Magic Practice Copybook,(4 Book + 10 Refill) Number Tracing Book for Preschooler with..</span>
+                        <div class="price">
+                            <sup>₹</sup><span class="down">100</span><sup>00</sup>
+                            <span style="margin: 5px 0 0 10px;">M.R.P: <label>₹ 135.00</label></span>
+                        </div>
+                    </div>
+                    <div class="image-bar">
+                        <img src="images/nineth-block/item-14.jpg" alt="pic">
+                        <img src="images/nineth-block/item-14.jpg" alt="pic">
+                        <img src="images/nineth-block/item-14.jpg" alt="pic">
+                        <img src="images/nineth-block/item-14.jpg" alt="pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-10">
+        <div class="slide-sec">
+            <div class="btn">
+                <div class="l-btn"><div class="fa-solid fa-chevron-left"></div></div>
+                <div class="r-btn"><div class="fa-solid fa-chevron-right"></div></div>
+            </div>
+            <span class="title"><h2>Best Sellers in Sports, Fitness & Outdoors</h2></span>
+            <ul class="product-slide">
+                <li><img src="images/tenth-block/item-1.jpg" alt="pic"></li>
+                <li><img src="images/tenth-block/item-2.jpg" alt="pic"></li>
+                <li><img src="images/tenth-block/item-3.jpg" alt="pic"></li>
+                <li><img src="images/tenth-block/item-4.jpg" alt="pic"></li>
+                <li><img style="margin-top: 70px;" src="images/tenth-block/item-5.jpg" alt="pic" width="200px"></li>
+                <li><img src="images/tenth-block/item-6.jpg" alt="pic"></li>
+                <li><img src="images/tenth-block/item-7.jpg" alt="pic"></li>
+                <li><img src="images/tenth-block/item-8.jpg" alt="pic"></li>
+                <li><img src="images/tenth-block/item-9.jpg" alt="pic"></li>
+                <li><img src="images/tenth-block/item-10.jpg" alt="pic"></li>
+                <li><img src="images/tenth-block/item-11.jpg" alt="pic"></li>
+                <li><img src="images/tenth-block/item-12.jpg" alt="pic"></li>
+                <li><img src="images/tenth-block/item-13.jpg" alt="pic"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec-11">
+        <div class="inner">
+            <div class="in">
+                <span>See personalized recommendations</span>
+                <button class="btn">Sign in</button>
+                <div class="dwn">
+                    <span>New Customer? </span>
+                    <a href="#">Start here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-12">
+        <div class="top">
+            <h4>Back to top</h4>
+        </div>
+        <div class="center">
+            <div class="ctr">
+                <ul class="bx">
+                    <h3>Get to Know Us</h3>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Press Releases</li>
+                    <li>Amazon Science</li>
+                </ul>
+                <ul class="bx">
+                    <h3>Connect with Us</h3>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+                <ul class="bx">
+                    <h3>Make Money with Us</h3>
+                    <li>Sell on Amazon</li>
+                    <li>Sell under Amazon Accelerator</li>
+                    <li>Protect and Build Your Brand</li>
+                    <li>Amazon Global Selling</li>
+                    <li>Become an Affiliate</li>
+                    <li>Fulfilment by Amazon</li>
+                    <li>Advertise Your Products</li>
+                    <li>Amazon Pay on Merchants</li>
+                </ul>
+                <ul class="bx">
+                    <h3>Let Us Help You</h3>
+                    <li>COVID-19 and Amazon</li>
+                    <li>Your Account</li>
+                    <li>Returns Centre</li>
+                    <li>Recalls and Product Safety Alerts</li>
+                    <li>100% Purchase Protection</li>
+                    <li>Amazon App Download</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom">
+            <div class="btm">
+                <img src="images/logo.png" width="80px" height="25px" alt="pic">
+                <div class="right">
+                    <div class="english">
+                        <span><i class="fa fa-globe"></i></span>
+                        <label >English</label>
+                        <span><i class="fa fa-caret-down"></i></span>
+                    </div>
+                    <div class="india">
+                        <img src="images/india.png" width="15px" alt="pic">
+                        <label >India</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-13">
+        <div class="inner-top-layout">
+            <ul>
+                <span>AbeBooks</span>
+                <li>Books, art</li>
+                <li>& collectibles</li>
+            </ul>
+            <ul>
+                <span>Amazon Web Services</span>
+                <li>Scalable Cloud</li>
+                <li>Computing Services</li>
+            </ul>
+            <ul>
+                <span>Audible</span>
+                <li>Download</li>
+                <li>Audio Books</li>
+            </ul>
+            <ul>
+                <span>IMDb</span>
+                <li>Movies, TV</li>
+                <li>& Celebrities</li>
+            </ul>
+            <ul>
+                <span>Shopbop</span>
+                <li>Designer</li>
+                <li> Fashion Brands</li>
+            </ul>
+            <ul>
+                <span>Amazon Business</span>
+                <li>Everything For</li>
+                <li>Your Business</li>
+            </ul>
+            <ul>
+                <span>Prime Now</span>
+                <li>2-Hour Delivery</li>
+                <li> on Everyday Items</li>
+            </ul>
+            <ul>
+                <span>Amazon Prime Music</span>
+                <li>100 million songs, ad-free</li>
+                <li>Over 15 million podcast episodes </li>
+            </ul>
+        </div>
+        <div class="inner-dwn-layout">
+            <div class="in-in">
+                <ul>
+                    <li>Conditions of Use & Sale</li>
+                    <li>Privacy Notice</li>
+                    <li>Interest-Based Ads</li>
+                </ul>
+                <span>© 1996-2024, Amazon.com, Inc. or its affiliates</span>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+</html>
